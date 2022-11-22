@@ -1,8 +1,21 @@
+header {
+  margin-bottom: 64px;
+}
+
 h1 {
   font-size: 48px;
   color: rgb(71, 62, 62);
-  margin: 12px 0;
+  margin: 0;
 }
+
+#description {
+  margin: 12px;
+}
+
+/* 
+header p {
+  margin-bottom: 36px;
+} */
 
 a {
   padding: 12px 48px;
@@ -12,6 +25,8 @@ a {
   text-decoration: none;
   font-size: 24px;
   border-radius: 4px;
+  display: inline-block;
+  margin: 0;
 }
 
 a:hover {
@@ -31,4 +46,19 @@ li {
   background-color: rgb(223, 136, 124);
   margin: 32px;
   border-radius: 6px;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+  color: rgb(78, 13, 5);
+  font-family: "Oswald", sans-serif;
+}
+
+main p {
+  margin: 12px;
+  color: rgb(71, 29, 22);
+}
+
+.highlight-goal {
+  background-color: rgb(224, 115, 101);
 }
